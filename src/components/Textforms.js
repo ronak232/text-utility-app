@@ -196,7 +196,7 @@ export default function Textforms(props) {
               color: props.mode === "dark" ? "rgb(232 140 237)" : "#fa7d7d",
             }}
           >
-            Word{" "}
+            Word
             {/* Words Words {text.length === 0 ? 0 : text.split(" ").trim().length} */}
             {
               text.split(" ").filter((elem) => {
